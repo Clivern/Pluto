@@ -11,6 +11,6 @@ public class DateTimeTest extends TestCase {
     public void testGetName()
     {
         DateTime dateTime = new DateTime();
-        assertEquals(dateTime.getName(), "Plut");
+        assertEquals(dateTime.getName(), "Pluto");
     }
 }
