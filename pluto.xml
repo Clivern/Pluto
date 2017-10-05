@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.clivern</groupId>
   <artifactId>pluto</artifactId>
-  <version>1.0.0-SNAPSHOT</version>
+  <version>1.0.1-SNAPSHOT</version>
   <name>Pluto</name>
   <description>A Simple Java API For DateTime.</description>
   <url>https://github.com/clivern/pluto</url>

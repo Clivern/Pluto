@@ -17,20 +17,20 @@ To add a dependency using Maven, use the following:
 <dependency>
   <groupId>com.clivern</groupId>
   <artifactId>pluto</artifactId>
-  <version>1.0.0</version>
+  <version>1.0.1-SNAPSHOT</version>
 </dependency>
 ```
 
 To add a dependency using Gradle, use the following:
 ```java
 dependencies {
-  compile 'com.clivern:pluto:1.0.0'
+  compile 'com.clivern:pluto:1.0.1-SNAPSHOT'
 }
 ```
 
 To add a dependency using Scala SBT, use the following:
 ```java
-libraryDependencies += "com.clivern" % "pluto" % "1.0.0"
+libraryDependencies += "com.clivern" % "pluto" % "1.0.1-SNAPSHOT"
 ```
 
 Usage
@@ -45,7 +45,7 @@ Misc
 
 Changelog
 ---------
-Version 1.0.0:
+Version 1.0.2:
 ```
 Coming Soon
 ```
