@@ -5,6 +5,11 @@ A Simple Java API For DateTime.
 
 *Current Version: Under Development*
 
+[![Build Status](https://travis-ci.org/Clivern/Pluto.svg?branch=master)](https://travis-ci.org/Clivern/Pluto)
+![](https://img.shields.io/maven-central/v/com.clivern/pluto.svg)
+[![Javadocs](http://www.javadoc.io/badge/com.clivern/pluto.svg)](http://www.javadoc.io/doc/com.clivern/pluto)
+![](https://img.shields.io/github/license/clivern/pluto.svg)
+
 Installation
 ------------
 To add a dependency using Maven, use the following:
