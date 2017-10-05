@@ -7,7 +7,7 @@ apply plugin: 'java-library'
 apply plugin: 'maven'
 
 archivesBaseName = "pluto"
-version = '1.0.0'
+version = '1.0.0-SNAPSHOT'
 
 // In this section you declare where to find the dependencies of your project
 repositories {
@@ -24,7 +24,7 @@ task updatePom {
             project {
                 groupId 'com.clivern'
                 artifactId 'pluto'
-                version '1.0.0'
+                version '1.0.0-SNAPSHOT'
                 name 'Pluto'
                 description 'A Simple Java API For DateTime.'
                 url 'https://github.com/clivern/pluto'
@@ -50,7 +50,6 @@ task updatePom {
                     url 'https://github.com/clivern/pluto'
                 	connection 'scm:git:git://github.com/clivern/pluto.git'
                 	developerConnection 'scm:git:git@github.com:clivern/pluto.git'
-
                 }
             }
         }.writeTo("pluto.pom").writeTo("pluto.xml")
