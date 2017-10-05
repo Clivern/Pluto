@@ -3,6 +3,8 @@
  */
 package com.clivern.pluto;
 
+import java.lang.String;
+
 /**
  * DateTime Class
  */
@@ -25,5 +27,10 @@ public class DateTime {
             instance = new DateTime();
         }
         return instance;
+    }
+
+    public String getName()
+    {
+        return "Pluto";
     }
 }
