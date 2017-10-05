@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.clivern</groupId>
+  <artifactId>pluto</artifactId>
+  <version>1.0.0</version>
+  <name>Pluto</name>
+  <description>A Simple Java API For DateTime.</description>
+  <url>https://github.com/clivern/pluto</url>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>http://www.opensource.org/licenses/mit-license.php</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>clivern</id>
+      <name>clivern</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:hg:https://github.com/clivern/pluto</connection>
+    <developerConnection>scm:hg:https://github.com/clivern/pluto</developerConnection>
+    <url>https://github.com/clivern/pluto</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.12</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>

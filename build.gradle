@@ -4,6 +4,7 @@
 
 // Apply the java-library plugin to add support for Java Library
 apply plugin: 'java-library'
+apply plugin: 'maven'
 
 archivesBaseName = "pluto"
 version = '1.0.0'
@@ -14,6 +15,38 @@ repositories {
     // You can declare any Maven/Ivy/file repository here.
     jcenter()
     mavenCentral()
+}
+
+// Update Pom file /opt/gradle/bin/gradle updatePom
+task updatePom {
+    doLast {
+        pom {
+            project {
+                groupId 'com.clivern'
+                name 'Pluto'
+                description 'A Simple Java API For DateTime.'
+                url 'https://github.com/clivern/pluto'
+                licenses {
+                    license {
+                        name 'MIT License'
+                        url 'http://www.opensource.org/licenses/mit-license.php'
+                        distribution 'repo'
+                    }
+                }
+                developers {
+                	developer {
+                		id 'clivern'
+                		name 'clivern'
+                	}
+                }
+                scm {
+                	connection 'scm:hg:https://github.com/clivern/pluto'
+                	developerConnection 'scm:hg:https://github.com/clivern/pluto'
+                	url 'https://github.com/clivern/pluto'
+                }
+            }
+        }.writeTo("pluto.pom").writeTo("pluto.xml")
+    }
 }
 
 dependencies {
