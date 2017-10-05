@@ -11,19 +11,24 @@
   <licenses>
     <license>
       <name>MIT License</name>
-      <url>http://www.opensource.org/licenses/mit-license.php</url>
+      <url>https://raw.githubusercontent.com/Clivern/Pluto/master/LICENSE</url>
       <distribution>repo</distribution>
     </license>
   </licenses>
   <developers>
     <developer>
       <id>clivern</id>
-      <name>clivern</name>
+      <name>AF</name>
+      <email>hello@clivern.com</email>
+      <url>http://clivern.com</url>
+      <roles>
+        <role>Software Developer</role>
+      </roles>
     </developer>
   </developers>
   <scm>
-    <connection>scm:hg:https://github.com/clivern/pluto</connection>
-    <developerConnection>scm:hg:https://github.com/clivern/pluto</developerConnection>
+    <connection>scm:git:git://github.com/clivern/pluto.git</connection>
+    <developerConnection>scm:git:git@github.com:clivern/pluto.git</developerConnection>
     <url>https://github.com/clivern/pluto</url>
   </scm>
   <dependencies>

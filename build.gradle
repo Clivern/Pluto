@@ -23,26 +23,34 @@ task updatePom {
         pom {
             project {
                 groupId 'com.clivern'
+                artifactId 'pluto'
+                version '1.0.0'
                 name 'Pluto'
                 description 'A Simple Java API For DateTime.'
                 url 'https://github.com/clivern/pluto'
                 licenses {
                     license {
                         name 'MIT License'
-                        url 'http://www.opensource.org/licenses/mit-license.php'
+                        url 'https://raw.githubusercontent.com/Clivern/Pluto/master/LICENSE'
                         distribution 'repo'
                     }
                 }
                 developers {
                 	developer {
                 		id 'clivern'
-                		name 'clivern'
+                		name 'AF'
+                        email 'hello@clivern.com'
+                        url 'http://clivern.com'
+                        roles {
+                            role 'Software Developer'
+                        }
                 	}
                 }
                 scm {
-                	connection 'scm:hg:https://github.com/clivern/pluto'
-                	developerConnection 'scm:hg:https://github.com/clivern/pluto'
-                	url 'https://github.com/clivern/pluto'
+                    url 'https://github.com/clivern/pluto'
+                	connection 'scm:git:git://github.com/clivern/pluto.git'
+                	developerConnection 'scm:git:git@github.com:clivern/pluto.git'
+
                 }
             }
         }.writeTo("pluto.pom").writeTo("pluto.xml")
